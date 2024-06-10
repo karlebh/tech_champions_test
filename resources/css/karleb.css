@@ -1,0 +1,14 @@
+@keyframes move {
+    from {
+        transform: translateY(-20px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .move {
+        animation: move 0.5s ease;
+    }
+}
